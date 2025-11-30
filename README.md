@@ -159,9 +159,6 @@ The AI Brain learns this **non-linear relationship**, allowing it to "tune" the 
 
 ---
 
-Here's the fixed markdown for section 10 with the diagram properly integrated:
-
----
 
 ## **10. Genetic Algorithm: Algorithmic Details**
 
