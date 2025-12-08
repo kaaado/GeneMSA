@@ -1,5 +1,7 @@
 
-# **Intelligent GeneMSA Agent**
+---
+
+### **MASTER'S PROJECT REPORT: Intelligent GeneMSA Agent**
 **Theme:** Multiple Sequence Alignment via Hyper-Heuristic Genetic Algorithms & Machine Learning
 
 **Author:** Yacine Kermame (Intelligent Systems Engineering, Master 2)
@@ -159,7 +161,6 @@ The AI Brain learns this **non-linear relationship**, allowing it to "tune" the 
 
 ---
 
-
 ## **10. Genetic Algorithm: Algorithmic Details**
 
 The **GeneMSA Agent** uses a **customized Elitist Genetic Algorithm** tailored for Multiple Sequence Alignment (MSA). The GA workflow is optimized for biological sequences and guided by the AI Brain.
@@ -248,6 +249,19 @@ The **GeneMSA Agent** uses a **customized Elitist Genetic Algorithm** tailored f
 - The GA is **sequence-aware**: it optimizes for MSA scoring rather than generic numerical objectives.
 - The **Swarm setup** balances **exploration (Beta/Delta)** and **exploitation (Alpha/Gamma)** to solve challenging datasets, especially in the "Twilight Zone" (<30% sequence identity).
 
+
+
+### **10.5 Why note use SAGA**
+
+GeneMSA does not use SAGA for several key reasons:
+
+- **Performance:** SAGA is very slow, especially when dealing with large datasets.
+- **Dependence:** It is heavily dependent on gap structures, which can be limiting.
+- **Convergence Issues:** SAGA has convergence problems when working with long DNA sequences.
+- **Lack of Adaptability:** It lacks dynamic difficulty assessment or an agent structure, meaning it can't adapt to varying data complexity.
+- **Limited Efficacy:** SAGA does not perform well with low-similarity sequences (those with less than 40% identity).
+
+In contrast, GeneMSA utilizes a hybrid Genetic Algorithm (GA) and swarm approach, which is designed to be faster, more adaptive, and more effective for low-similarity cases.
 
 ---
 
