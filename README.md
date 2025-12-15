@@ -4,8 +4,6 @@
 ### **MASTER'S PROJECT REPORT: Intelligent GeneMSA Agent**
 **Theme:** Multiple Sequence Alignment via Hyper-Heuristic Genetic Algorithms & Machine Learning
 
-**Author:** Yacine Kermame (Intelligent Systems Engineering, Master 2)
-
 ---
 
 ## **1. Abstract**
